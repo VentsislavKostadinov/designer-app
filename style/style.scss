@@ -1,0 +1,180 @@
+$filters-colour: #263138;
+$white-colour: #ffffff;
+$black-colour: #000000;
+
+/* Logo */
+
+header > img {
+  width: 40vw;
+  cursor: pointer;
+  height: auto;
+ }
+
+@media (min-width: 992px) {
+
+  header > img {
+    width: 10vw;
+   }
+   
+}
+
+
+@mixin icons() {
+  font-size: 50px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+body {
+  background-color:  #f2f2f2;
+  font-size: 1rem;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+/* ZOOMS */
+
+/* #filters {
+
+  background-color: $filters-colour;
+
+
+  .list-group {
+
+
+    .list-group-item {
+      color: $white-colour;
+      background-color: $filters-colour;
+      border: none;
+
+      .fas {
+        @include icons();
+      }
+
+    }
+  }
+} */
+
+#myCanvas {
+  border: 3px solid #ff4d4d;
+  margin-top: 60px;
+  max-width: 100%;
+
+  
+}
+
+/* Range Filters */
+
+.filters {
+
+  margin-top: 40px;
+ 
+ .btn-group-justified {
+   display: flex;
+   
+
+   .btn-dark {
+     margin-bottom: 8px;
+   }
+   .btn-danger {
+    margin-bottom: 8px;
+   }
+ }
+
+ div:nth-child(2) > p {
+   margin: auto;
+ }
+
+ #sized, #priced {
+  color: $black-colour;
+ // padding-left: 26px;
+ }
+
+
+  .range {
+    width: 99%;
+  }
+ 
+
+  div {
+    color: $white-colour;
+
+    i {
+
+      padding: 10px;
+      //padding-top: 10px;
+      //padding-left: 10px;
+      font-size: 35px;
+      height: 40px;
+      cursor: pointer;
+      margin-left: 10px;
+
+    }
+
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .filters {
+    #sized, #priced {
+      padding-left: 12px;
+    }
+  }
+}
+
+/* Modal */
+
+.modal {
+  //top: 309px;
+ background-color: #f2f2f2;
+
+}
+
+/* Change orientation */
+
+.orientation {
+  width: 361px;
+  height: 361px;
+}
+
+footer {
+  p {
+    margin-top: 36px;
+    color: $white-colour;
+    float: right;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+
+  #zoomIn, #zoomOut, #resetZoom {
+    display: none;
+  }
+
+  .image-load-button  {
+    max-width: 100%;
+  }
+
+ 
+
+  #myCanvas {
+    margin-top: 10px;
+
+  }
+
+  .filters {
+    margin-top: 17px;
+  }
+
+}
