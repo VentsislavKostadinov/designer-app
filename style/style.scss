@@ -8,14 +8,14 @@ header > img {
   width: 40vw;
   cursor: pointer;
   height: auto;
- }
+}
 
 @media (min-width: 992px) {
 
   header > img {
     width: 10vw;
-   }
-   
+  }
+
 }
 
 
@@ -67,7 +67,7 @@ body {
   margin-top: 60px;
   max-width: 100%;
 
-  
+
 }
 
 /* Range Filters */
@@ -75,33 +75,33 @@ body {
 .filters {
 
   margin-top: 40px;
- 
- .btn-group-justified {
-   display: flex;
-   
 
-   .btn-dark {
-     margin-bottom: 8px;
-   }
-   .btn-danger {
-    margin-bottom: 8px;
-   }
- }
+  .btn-group-justified {
+    display: flex;
 
- div:nth-child(2) > p {
-   margin: auto;
- }
 
- #sized, #priced {
-  color: $black-colour;
- // padding-left: 26px;
- }
+    .btn-dark {
+      margin-bottom: 8px;
+    }
+    .btn-danger {
+      margin-bottom: 8px;
+    }
+  }
+
+  div:nth-child(2) > p {
+    margin: auto;
+  }
+
+  #sized, #priced {
+    color: $black-colour;
+    // padding-left: 26px;
+  }
 
 
   .range {
     width: 99%;
   }
- 
+
 
   div {
     color: $white-colour;
@@ -135,7 +135,7 @@ body {
 
 .modal {
   //top: 309px;
- background-color: #f2f2f2;
+  background-color: #f2f2f2;
 
 }
 
@@ -166,7 +166,7 @@ footer {
     max-width: 100%;
   }
 
- 
+
 
   #myCanvas {
     margin-top: 10px;

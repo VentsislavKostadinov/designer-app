@@ -3,7 +3,7 @@ $('#pa_size').on('change', function() {
 
     let selectNewSizeBtn = document.getElementById('selectedSizePriceBtn');
     let newSize = document.getElementById('pa_size').value;
-    
+
 
     let outputResult = document.getElementById('result');
 
@@ -19,10 +19,10 @@ $('#pa_size').on('change', function() {
     let priceVariation;
     let option = $(this).find('option:selected');
     priceVariation = (option.data('price'));
-    
+
     outputResult.innerHTML = priceVariation;
 
-/* Append the variation and price in the designer web page */
+    /* Append the variation and price in the designer web page */
 
     let outputSizeVariation = document.getElementById('sized');
     outputSizeVariation.innerHTML = 'Size: ' + newSize;
@@ -37,5 +37,5 @@ $('#pa_size').on('change', function() {
     $(selectNewSizeBtn).on('click', function() {
         $('#exampleModal2').modal('hide');
     })
- 
+
 })

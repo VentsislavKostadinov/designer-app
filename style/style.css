@@ -10,13 +10,12 @@ header > img {
     width: 10vw;
   }
 }
-
 body {
   background-color: #f2f2f2;
   font-size: 1rem;
 }
 
-[type="file"] {
+[type=file] {
   height: 0;
   overflow: hidden;
   width: 0;
@@ -53,37 +52,27 @@ body {
 .filters {
   margin-top: 40px;
 }
-
 .filters .btn-group-justified {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .filters .btn-group-justified .btn-dark {
   margin-bottom: 8px;
 }
-
 .filters .btn-group-justified .btn-danger {
   margin-bottom: 8px;
 }
-
 .filters div:nth-child(2) > p {
   margin: auto;
 }
-
 .filters #sized, .filters #priced {
   color: #000000;
 }
-
 .filters .range {
   width: 99%;
 }
-
 .filters div {
   color: #ffffff;
 }
-
 .filters div i {
   padding: 10px;
   font-size: 35px;
@@ -97,7 +86,6 @@ body {
     padding-left: 12px;
   }
 }
-
 /* Modal */
 .modal {
   background-color: #f2f2f2;
@@ -119,14 +107,18 @@ footer p {
   #zoomIn, #zoomOut, #resetZoom {
     display: none;
   }
+
   .image-load-button {
     max-width: 100%;
   }
+
   #myCanvas {
     margin-top: 10px;
   }
+
   .filters {
     margin-top: 17px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

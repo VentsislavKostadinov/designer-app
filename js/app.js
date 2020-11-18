@@ -458,8 +458,4 @@ reader.onload = function () {
     image.src = data.image; // data.image contains the data URL
 };
 
-let completeImg = document.getElementById('complete');
-completeImg.addEventListener('click', () => {
 
-console.log('clicked')
-})
